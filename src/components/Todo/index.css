@@ -1,0 +1,43 @@
+.Todo {
+  padding: 20px;
+}
+
+.Todo__li {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 10px;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.Todo__li--checkbox:checked {
+  accent-color: rgb(118, 237, 197);
+  box-shadow: 0 0 0 3px #5f9391;
+}
+
+.Todo__li--postDate {
+  font-size: 0.8rem;
+  font-weight: lighter;
+  font-style: italic;
+  color: #5f9391;
+}
+
+.DeleteButton {
+  padding: 5px 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #cdab8f;
+  background-color: #5f9391;
+  border-color: transparent;
+  border-radius: 3px;
+}
+
+.DeleteButton:hover,
+.DeleteButton:focus {
+  background-color: #cdab8f;
+  color: #5f9391;
+  border-color: #7eb5b2;
+  outline: none;
+  cursor: pointer;
+}

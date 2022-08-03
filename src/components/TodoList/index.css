@@ -1,0 +1,41 @@
+.TodoList {
+  width: 500px;
+  height: 600px;
+  background-color: #cdab8f;
+  border-radius: 20px;
+}
+
+.TodoList__input input {
+  padding: 10px;
+  margin: 25px 15px;
+  width: 300px;
+  color: #7eb5b2;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  border: 2px solid #5f9391;
+  box-shadow: 0 0 0 2pt rgb(#7eb5b2 / 30%);
+}
+
+.TodoList__input input:focus,
+.TodoList__input input:active {
+  outline: none;
+}
+
+.AddButton {
+  padding: 5px 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #cdab8f;
+  background-color: #5f9391;
+  border-color: transparent;
+  border-radius: 3px;
+}
+
+.AddButton:hover,
+.AddButton:focus {
+  background-color: #cdab8f;
+  color: #5f9391;
+  border-color: #7eb5b2;
+  outline: none;
+  cursor: pointer;
+}
